@@ -3,14 +3,11 @@ import React from "react";
 import About from "../components/About";
 import Banner from "../components/Banner";
 import Contact from "../components/Contact";
-import Experience from "../components/Experience";
 import Footer from "../components/Footer";
 import LeftSide from "../components/LeftSide";
 import Navbar from "../components/Navbar";
-import Projects from "../components/Projects";
 import RightSide from "../components/RightSide";
 import { motion } from "framer-motion";
-import Archive from "../components/Archive";
 import { Helmet } from "react-helmet";
 import "../styles/globals.css"; // Import Tailwind CSS styles
 
@@ -38,9 +35,6 @@ const Home = () => {
           <div className="h-[88vh] mx-auto p-4">
             <Banner />
             <About />
-            {/* <Experience /> */}
-            {/* <Projects /> */}
-            {/* <Archive /> */}
             <Contact />
             <Footer />
           </div>
