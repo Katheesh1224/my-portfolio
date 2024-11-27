@@ -15,40 +15,30 @@ const About = () => {
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
             Hello! My name is Gobikatheesh and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2022 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML & CSS!
+            live on the internet. My interest in software development started back in
+            2021 when I decided to continue my career as a Computer Science student.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
-            <span className="text-textGreen">
+            I have strong background in software engineering and passion for AI and
+            machine learning. I am actively seeking opportunities to apply programming skills in a challenging internship
+            role to gain hands-on experiences.
+            {/* <span className="text-textGreen">
               a huge corporation, and a student-led design studio.
             </span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
             accusantium fugiat veritatis, quidem repellat{" "}
             <span className="text-textGreen">
               ab natus possimus? Sint, accusamus!
-            </span>
+            </span> */}
           </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
-          </p>
-          <p>Here are a few technologies I have been working with recently:</p>
+
+          <p>Here are a few technologies I have been working recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Next.js
+              JavaScript
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -73,6 +63,12 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Express.js
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              MYSQL
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">

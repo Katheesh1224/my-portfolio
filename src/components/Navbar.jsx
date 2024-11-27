@@ -79,7 +79,7 @@ const Navbar = () => {
               </motion.li>
             </a>
 
-            <a
+            {/* <a
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#experience"
               onClick={handleScroll}
@@ -89,12 +89,11 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.2 }}
               >
-                {/* <span className="text-textGreen">02.</span> */}
                 Experience
               </motion.li>
-            </a>
+            </a> */}
 
-            <a
+            {/* <a
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#project"
               onClick={handleScroll}
@@ -104,10 +103,9 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
-                {/* <span className="text-textGreen">03.</span> */}
                 Project
               </motion.li>
-            </a>
+            </a> */}
 
             <a
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
@@ -196,7 +194,7 @@ const Navbar = () => {
                       About
                     </motion.li>
                   </a>
-                  <a
+                  {/* <a
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#experience"
                     onClick={handleScroll}
@@ -206,11 +204,10 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.3, ease: "easeIn" }}
                     >
-                      {/* <span className="text-textGreen">02.</span> */}
                       Experience
                     </motion.li>
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#project"
                     onClick={handleScroll}
@@ -220,10 +217,9 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.4, ease: "easeIn" }}
                     >
-                      {/* <span className="text-textGreen">03.</span> */}
                       Project
                     </motion.li>
-                  </a>
+                  </a> */}
                   <a
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#contact"
