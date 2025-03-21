@@ -14,17 +14,18 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Gobikatheesh and I enjoy creating things that
+            Hello! My name is <span className="text-textGreen">Gobikatheesh</span> and I enjoy creating things that
             live on the internet. My interest in software development started back in
-            2021 when I decided to continue my career as a Computer Science student.
+            2021 when I decided to continue my career as a <span className="text-textGreen">Computer Science</span> student.
           </p>
           <p>
-            I have strong background in software engineering and passion for AI and
-            machine learning. I am actively seeking opportunities to apply programming skills in a challenging internship
-            role to gain hands-on experiences.
-            {/* <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
-            </span>
+            I have strong background in <span className="text-textGreen">object-oriented programming</span>, 
+            <span className="text-textGreen">data structures</span>, and <span className="text-textGreen">algorithms</span>. 
+            Proficient in <span className="text-textGreen">Python</span> and <span className="text-textGreen">Java</span>, 
+            with experience in optimizing projects and skills in project management and team leadership. 
+            I am actively seeking opportunities to apply programming skills in a challenging 
+            Intern role to gain hands-on experiences.
+            {/* <span className="text-textGreen"></span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
             accusantium fugiat veritatis, quidem repellat{" "}
             <span className="text-textGreen">
@@ -44,7 +45,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              React
+              React.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -80,7 +81,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwindcss
+              Tailwind CSS
             </li>
           </ul>
         </div>

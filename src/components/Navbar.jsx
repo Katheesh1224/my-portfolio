@@ -93,7 +93,7 @@ const Navbar = () => {
               </motion.li>
             </a> */}
 
-            {/* <a
+            <a
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#project"
               onClick={handleScroll}
@@ -105,7 +105,7 @@ const Navbar = () => {
               >
                 Project
               </motion.li>
-            </a> */}
+            </a>
 
             <a
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
@@ -122,7 +122,7 @@ const Navbar = () => {
               </motion.li>
             </a>
           </ul>
-          <a href="/GOBIKATHEESH.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/Gobikatheesh_CV.pdf" target="_blank" rel="noopener noreferrer">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -207,7 +207,7 @@ const Navbar = () => {
                       Experience
                     </motion.li>
                   </a> */}
-                  {/* <a
+                  <a
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#project"
                     onClick={handleScroll}
@@ -219,7 +219,7 @@ const Navbar = () => {
                     >
                       Project
                     </motion.li>
-                  </a> */}
+                  </a>
                   <a
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#contact"
@@ -235,7 +235,7 @@ const Navbar = () => {
                     </motion.li>
                   </a>
                 </ul>
-                <a href="/GOBIKATHEESH.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/Gobikatheesh_CV.pdf" target="_blank" rel="noopener noreferrer">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
