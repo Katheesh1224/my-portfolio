@@ -21,10 +21,10 @@ const About = () => {
           <p>
             I have strong background in <span className="text-textGreen">object-oriented programming</span>, 
             <span className="text-textGreen">data structures</span>, and <span className="text-textGreen">algorithms</span>. 
-            Proficient in <span className="text-textGreen">Python</span> and <span className="text-textGreen">Java</span>, 
+            Proficient in <span className="text-textGreen">Python</span>, <span className="text-textGreen">Java</span>  and <span className="text-textGreen">JavaScript</span>, 
             with experience in optimizing projects and skills in project management and team leadership. 
             I am actively seeking opportunities to apply programming skills in a challenging 
-            Intern role to gain hands-on experiences.
+            role to gain hands-on experiences.
             {/* <span className="text-textGreen"></span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
             accusantium fugiat veritatis, quidem repellat{" "}

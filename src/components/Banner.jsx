@@ -21,7 +21,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Gobikatheesh.
+        Gobikatheesh.K
         <span className="text-textDark mt-2 lgl:mt-4">
           I build things for the web.
         </span>
@@ -32,7 +32,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a software developer and currently Computer Science undergraduate at University of Jaffna. I have a
+        I am a software developer and currently in a role of Programmer Cum System Analyst at University of Jaffna. I have a
         strong foundation in front-end & back-end development and am skilled in
         creating user-friendly and responsive web applications using React and
         its ecosystem.{" "}
