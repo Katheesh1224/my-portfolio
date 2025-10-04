@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
 
-const ReactBD = () => {
+const UOJ = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,11 +10,11 @@ const ReactBD = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Engineer
-        <span className="text-textGreen tracking-wide">@ReactBD</span>
+        Programmer Cum System Analyst
+        <span className="text-textGreen tracking-wide">@University of Jaffna</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2023 - present
+        May 2025 - present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
@@ -22,26 +22,26 @@ const ReactBD = () => {
             <TiArrowForward />
           </span>
           Write modern, performant, maintainable code for a diverse array of
-          client and internal projects
+          student and staff management project
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
           Work with a variety of different languages, platforms, frameworks, and
-          content management systems such as JavaScript, TypeScript, Gatsby,
-          React, Craft, WordPress, Prismic, and Netlify
+          content management systems such as JavaScript, React, Node.js,
+          Express, MariaDB, Docker, and Git.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Communicate with multi-disciplinary teams of engineers, designers,
-          producers, and clients on a daily basis
+          Communicate with multi-disciplinary teams of developers, designers,
+          producers, and clients on a weekly basis
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default ReactBD;
+export default UOJ;

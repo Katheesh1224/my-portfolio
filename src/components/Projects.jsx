@@ -12,7 +12,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="Some Things I have Built" />
+      <SectionTitle title="Some Things I have Built" titleNo="03"/>
       {/* ============ Project Five Start here ================ */}
       <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a

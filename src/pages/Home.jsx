@@ -1,7 +1,6 @@
-// src/pages/Home.jsx
 import React from "react";
 import About from "../components/About";
-// import Experience from "../components/Experience";
+import Experience from "../components/Experience";
 import Banner from "../components/Banner";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -10,7 +9,7 @@ import Navbar from "../components/Navbar";
 import RightSide from "../components/RightSide";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
-import "../styles/globals.css"; // Import Tailwind CSS styles
+import "../styles/globals.css";
 import Projects from "../components/Projects";
 
 
@@ -37,7 +36,7 @@ const Home = () => {
           <div className="h-[88vh] mx-auto p-4">
             <Banner />
             <About />
-            {/* <Experience/> */}
+            <Experience/>
             <Projects />
             <Contact />
             <Footer />

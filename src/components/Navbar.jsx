@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import logo from "../assets/images/logo.png"; // Update the path to your logo image
+import logo from "../assets/images/logo.png";
 import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialLinkedin, SlSocialFacebook, SlSocialInstagram } from "react-icons/sl";
 import { MdOutlineClose } from "react-icons/md";
@@ -79,7 +79,7 @@ const Navbar = () => {
               </motion.li>
             </a>
 
-            {/* <a
+            <a
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#experience"
               onClick={handleScroll}
@@ -91,7 +91,7 @@ const Navbar = () => {
               >
                 Experience
               </motion.li>
-            </a> */}
+            </a>
 
             <a
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
@@ -194,7 +194,7 @@ const Navbar = () => {
                       About
                     </motion.li>
                   </a>
-                  {/* <a
+                  <a
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#experience"
                     onClick={handleScroll}
@@ -206,7 +206,7 @@ const Navbar = () => {
                     >
                       Experience
                     </motion.li>
-                  </a> */}
+                  </a>
                   <a
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#project"
