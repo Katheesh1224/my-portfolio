@@ -2,32 +2,32 @@ import React, { useState } from "react";
 import SectionTitle from "./SectionTitle";
 // import Amazon from "./works/Amazon";
 // import Apple from "./works/Apple";
-// import Google from "./works/Google";
+import Velxgen from "./works/Velxgen.jsx";
 import UOJ from "./works/UOJ";
 // import Splash from "./works/Splash";
 
 const Experience = () => {
   const [workUOJ, setWorkUOJ] = useState(true);
-  // const [workGoogle, setWorkGoogle] = useState(false);
+  const [workVelxgen, setWorkVelxgen] = useState(false);
   // const [workApple, setWorkApple] = useState(false);
   // const [workSplash, setWorkSplash] = useState(false);
   // const [workAmazon, setWorkAmazon] = useState(false);
 
   const handleUOJ = () => {
     setWorkUOJ(true);
-    // setWorkGoogle(false);
+    setWorkVelxgen(false);
     // setWorkApple(false);
     // setWorkSplash(false);
     // setWorkAmazon(false);
   };
 
-  // const handleGoogle = () => {
-  //   setWorkUOJ(false);
-  //   setWorkGoogle(true);
+  const handleVelxgen = () => {
+    setWorkUOJ(false);
+    setWorkVelxgen(true);
   //   setWorkApple(false);
   //   setWorkSplash(false);
   //   setWorkAmazon(false);
-  // };
+  };
 
   // const handleApple = () => {
   //   setWorkUOJ(false);
@@ -71,17 +71,17 @@ const Experience = () => {
           >
             UOJ
           </li>
-          {/* <li
-            onClick={handleGoogle}
+          <li
+            onClick={handleVelxgen}
             className={`${
-              workGoogle
+              workVelxgen
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Google
+            Velxgen
           </li>
-          <li
+          {/* <li
             onClick={handleApple}
             className={`${
               workApple
@@ -90,8 +90,8 @@ const Experience = () => {
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Apple
-          </li>
-          <li
+          </li> */}
+          {/* <li
             onClick={handleSplash}
             className={`${
               workSplash
@@ -100,8 +100,8 @@ const Experience = () => {
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Splash
-          </li>
-          <li
+          </li> */}
+          {/* <li
             onClick={handleAmazon}
             className={`${
               workAmazon
@@ -113,10 +113,10 @@ const Experience = () => {
           </li> */}
         </ul>
         {workUOJ && <UOJ />}
-        {/* {workGoogle && <Google />}
-        {workApple && <Apple />}
-        {workSplash && <Splash />}
-        {workAmazon && <Amazon />} */}
+        {workVelxgen && <Velxgen />}
+        {/* {workApple && <Apple />} */}
+        {/* {workSplash && <Splash />} */}
+        {/* {workAmazon && <Amazon />} */}
       </div>
     </section>
   );
